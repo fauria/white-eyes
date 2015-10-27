@@ -1,0 +1,32 @@
+{
+  "name": "white-eyes",
+  "version": "0.0.1",
+  "description": "What the Heck Is This, Edison?",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "opencv": "^3.2.0",
+    "socket.io": "^1.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fauria/white-eyes.git"
+  },
+  "keywords": [
+    "computer",
+    "vision",
+    "intel",
+    "edison"
+  ],
+  "author": "Fer Uría <fauria@gmail.com> (https://github.com/fauria)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fauria/white-eyes/issues"
+  },
+  "homepage": "https://github.com/fauria/white-eyes#readme"
+}

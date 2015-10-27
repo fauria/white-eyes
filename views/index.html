@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>White Eyes</title>
+	<link rel="stylesheet" type="text/css" href="skeleton/css/skeleton.css">
+
+	<script src="jquery/dist/jquery.min.js" type="text/javascript"></script>
+	<script src="/socket.io/socket.io.js" type="text/javascript"></script>
+	<script src="js/app.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<header>
+		<div class="container">	
+			<div class="row">		
+				<div class="eleven columns">
+					<h1><strong>W</strong>hatta <strong>H</strong>eck <strong>I</strong>s <strong>T</strong>his, <strong>E</strong>dison?</h1>		
+				</div>
+				<div class="one column">
+					<img height="50" alt="Xeyes" src="images/xeyes.png">
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<section>	
+		<div class="container">	
+			<div class="row">
+				<div class="twelve columns">
+					<a class="button button-primary" id="say">How many people are there?</a>
+					<h3>Main Cam (<span id="how-many-people">0</span> people)</h3>					
+				</div>				
+			</div>			
+			<div class="row">
+				<div class="twelve columns">
+					<canvas id="canvas-video" width="320" height="240"></canvas>
+				</div>
+				<div class="eight columns">
+					
+				</div>
+			</div>
+			<div class="row">
+				<div class="twelve columns">
+					<h3>Last seen:</h3>
+				</div>
+			</div>
+			<div class="row">			
+				<div class="three columns face" id="face-0">					
+				</div>
+				<div class="three columns face" id="face-1">					
+				</div>
+				<div class="three columns face" id="face-2">					
+				</div>
+				<div class="three columns face" id="face-3">					
+				</div>							
+			</div>
+		</div>				
+	</section>
+
+	<footer>
+		<div class="container">	
+			<div class="row">
+				<div class="twelve columns">
+					<h5>By:</h5>
+					<p>2015 Fer Uría &lt;fauria@gmail.com&gt; &amp; Javier Yuste &lt;javier.yuste@alumni.ie.edu&gt;</p>
+				</div>
+			</div>		
+		</div>
+	</footer>
+
+</body>
+</html>
